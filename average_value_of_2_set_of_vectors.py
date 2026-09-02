@@ -37,15 +37,11 @@ plt.figure(figsize=(7, 7))
 plt.axis([0, 100, 0, 100])
 
 # Draw the average for group 1 - blue
-plt.plot(0,
-         0,
-         average_client_1[0],
+plt.plot(average_client_1[0],
          average_client_1[1],
          'bo', markersize=15)
 # Draw the average for group 2 - green
-plt.plot(0,
-         0,
-         average_client_2[0],
+plt.plot(average_client_2[0],
          average_client_2[1],
          'go', markersize=15)
 plt.plot(price, quality, 'ro')
